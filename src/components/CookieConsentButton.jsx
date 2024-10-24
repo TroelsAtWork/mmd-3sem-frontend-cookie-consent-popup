@@ -1,11 +1,8 @@
 "use client";
 
-const CookieConsentButton = (props) => {
+const CookieConsentButton = () => {
   return (
-    <button
-      onClick={() => props.action(true)}
-      className={` p-3 text-lg text-black rounded-lg h-15 bg-slate-50`}
-    >
+    <button className={` p-3 text-lg text-black rounded-lg h-15 bg-slate-50`}>
       I like Cookies
     </button>
   );
