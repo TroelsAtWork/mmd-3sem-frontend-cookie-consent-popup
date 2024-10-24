@@ -1,3 +1,5 @@
+"use client";
+
 const CookieConsentText = () => {
   return (
     <p className="leading-8 text-[25px] mb-4">
