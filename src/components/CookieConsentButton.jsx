@@ -4,7 +4,7 @@ const CookieConsentButton = ({ setAcceptCookies }) => {
   return (
     <button
       onClick={() => setAcceptCookies(true)}
-      className={` p-3 text-lg text-black rounded-lg h-15 bg-slate-50`}
+      className={`p-3 text-lg text-black rounded-lg h-15 bg-slate-50`}
     >
       I like Cookies
     </button>
