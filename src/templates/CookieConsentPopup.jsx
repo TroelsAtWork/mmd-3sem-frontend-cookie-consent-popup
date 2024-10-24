@@ -22,7 +22,7 @@ const CookieConsentPopup = () => {
         <CookieConsentText />
         <CookieConsentButton
           test="Test string prop"
-          action={setAcceptCookies}
+          setAcceptCookies={setAcceptCookies}
         />
       </footer>
     </section>
